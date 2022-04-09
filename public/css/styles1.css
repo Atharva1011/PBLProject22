@@ -1,0 +1,32 @@
+nav {
+  background-color: aquamarine;
+  display: flex;
+  align-items: space-between;
+  justify-content: space-around;
+}
+
+nav button {
+  cursor: pointer;
+  height: 2.6rem;
+}
+
+nav a {
+  align-items: center;
+  text-align: center;
+  margin: auto 1rem;
+}
+
+footer {
+  background-color: red;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer h1 {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

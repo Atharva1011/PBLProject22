@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 85%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 25px;
+}
+
+.cards {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-section {
+  height: 225px;
+  background-color: rgb(119, 177, 243);
+}
+
+.content {
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.content h2 {
+  letter-spacing: 1.5px;
+}
+
+.content h3 {
+  margin-top: 5px;
+  font-family: sans-serif;
+}
+
+.content p {
+  margin: 15px 0px;
+  font-size: 15px;
+}
+
+.content a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  background-color: #66c20a;
+  padding: 8px 15px;
+}
+
+.content a:hover {
+  background-color: #d4bb19;
+  color: #333;
+  transition: 1s ease-in-out;
+}

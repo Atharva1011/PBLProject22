@@ -1,0 +1,63 @@
+<head>
+  <link rel="stylesheet" href="css/login.css" />
+  <script
+    src="https://kit.fontawesome.com/4932722d1c.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <a href="/" class="l-homepage"><button>Go to Homepage</button></a>
+  <div class="login-form">
+    <div class="form-title">
+      <h1>Register</h1>
+    </div>
+    <label for="username">
+      <input type="text" placeholder="Username" name="username" />
+    </label>
+    <label for="email">
+      <input type="email" placeholder="Email" name="email" />
+    </label>
+    <label for="password">
+      <input type="passsword" placeholder="Password" name="password" />
+    </label>
+    <label for="password">
+      <input type="passsword" placeholder="Confirm Password" name="cpassword" />
+    </label>
+    <div class="remember-me">
+      <input
+        class="input-checkbox"
+        type="checkbox"
+        name="remember-me"
+        id="ckb1"
+      />
+      <label class="label-checkbox" for="ckb1">
+        <span class="txt1">Remember me click here.</span>
+      </label>
+    </div>
+    <a href="/main"><button class="red" type="button"><i
+        class="fa-solid fa-lock"
+      ></i>Login</button></a>
+    <p class="login-with-social">Login with..</p>
+    <div class="social-media">
+      <a href="/auth/google">
+      <button class="social-icons" type="button"><i
+          class="fa-brands fa-google"
+        ></i></button>
+        </a>
+      <button class="social-icons" type="button"><i
+          class="fa-brands fa-facebook"
+        ></i></button>
+      <button class="social-icons" type="button"><i
+          class="fa-brands fa-twitter"
+        ></i></button>
+      <button class="social-icons" type="button"><i
+          class="fa-brands fa-linkedin"
+        ></i></button>
+    </div>
+    <button class="red" type="button"><i class="fa-solid fa-unlock"></i>Forget
+      Password?</button>
+      <p>Already a member??<a href="/login"><button
+          class="register"
+        >Login</button></p></a>
+  </div>
+</body>
